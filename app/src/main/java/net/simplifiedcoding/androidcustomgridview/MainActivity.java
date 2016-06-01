@@ -20,7 +20,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     //Web api url
-    public static final String DATA_URL = "http://www.simplifiedcodingreaders.16mb.com/superheroes.php";
+    public static final String DATA_URL = "http://192.168.0.4:8888/JSON/superheroes.php";
 
     //Tag values to read from json
     public static final String TAG_IMAGE_URL = "image";
