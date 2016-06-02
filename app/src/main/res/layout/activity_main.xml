@@ -15,10 +15,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:columnWidth="90dp"
-        android:gravity="center"
-        android:horizontalSpacing="10dp"
-        android:numColumns="3"
+        android:horizontalSpacing="20dp"
+        android:numColumns="1"
         android:stretchMode="columnWidth"
-        android:verticalSpacing="10dp"></GridView>
+        android:verticalSpacing="20dp"
+        android:background="#e4f3b9"
+        android:backgroundTint="#f9e9e9"
+        android:backgroundTintMode="screen"
+        android:cacheColorHint="#aaefe7"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:fastScrollAlwaysVisible="false"
+        android:gravity="right">
+
+    </GridView>
 
 </LinearLayout>
